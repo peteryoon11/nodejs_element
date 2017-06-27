@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/peteryoon11/nodejs_element/issues"
   },
-  "homepage": "https://github.com/peteryoon11/nodejs_element#readme"
+  "homepage": "https://github.com/peteryoon11/nodejs_element#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "underscore": "^1.8.3"
+  }
 }
