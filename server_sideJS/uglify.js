@@ -1,0 +1,1 @@
+function hello(e){console.log(e,"hi")}hello("eee!");
