@@ -1,0 +1,24 @@
+{
+    "remotePath": "/home/test",
+    "host": "192.168.159.130",
+    "username": "root",
+    "password": "root",
+    "port": 22,
+    "secure": true,
+    "protocol": "sftp",
+    "uploadOnSave": true,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.DS_Store"
+    ],
+    "generatedFiles": {
+        "uploadOnSave": false,
+        "extensionsToInclude": [],
+        "path": "/server_sideJS"
+    }
+}

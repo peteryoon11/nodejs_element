@@ -2,16 +2,10 @@ var express=require('express');
 var app=express();
 
 app.use(express.static('public'));
-//
+
 
 app.get('/',function (req,res){
-    
     res.send('Hello World!!');
-});
-app.post('/',function (req,res){
-    
-    //res.send('Hello World!!'+ JSON.stringify(req.body.test));
-    res.send('Hello World!!'+ req.set);
 });
 
 app.get('/login',(req,res)=>{
@@ -26,9 +20,8 @@ app.get('/dynamic',(req,res)=>{
 
 
 app.get('/route', (req,res)=>{
-    req.console.log("test!!");
     res.send('Route Hello <img src="/Capture001.png"> ');
 })
-app.listen(3001, function(){  
-    console.log('Example app listening in ',3001);
+app.listen(3000, function(){  
+    console.log('Example app listening in ',3000);
 });
